@@ -29,7 +29,7 @@ def display_banner():
     #                                            #
     #              H O R I Z O N                 #
     #                                            #
-    #         Created by: Amit Kasbe             #
+    #         Created by: GHOST                  #
     #                                            #
     ##############################################
     {Fore.RESET}
