@@ -1,4 +1,4 @@
-# 🌌 **Horizon — Advanced Phone Intelligence & Tracking System**
+# 🌐 **Horizon — Advanced Phone Intelligence & Tracking System**
 
 ### *Developed by [Amit Kasbe](mailto:amitkasbe2020@gmail.com)*
 
@@ -54,7 +54,7 @@ Horizon bridges the gap between **data aggregation**, **analysis**, and **visual
 
 ---
 
-### 4. 🏗️ **Network Tower & Signal Insights**
+### 4. 🗼 **Network Tower & Signal Insights**
 
 * Retrieves the **most recent network tower** or last known cell ID used by the number.
 * Displays tower coordinates and signal source area on the map.
@@ -62,7 +62,7 @@ Horizon bridges the gap between **data aggregation**, **analysis**, and **visual
 
 ---
 
-### 5. 🖼️ **Profile Photo Retrieval**
+### 5. 🧍‍♂️ **Profile Photo Retrieval**
 
 * Gathers **publicly available profile photos** via connected APIs.
 * Supports image caching and preview through the dashboard or CLI output.
@@ -70,7 +70,7 @@ Horizon bridges the gap between **data aggregation**, **analysis**, and **visual
 
 ---
 
-### 6. 🗺️ **Interactive Location Mapping**
+### 6. 🧭 **Interactive Location Mapping**
 
 * Built using **Folium** for interactive, draggable maps.
 * Displays:
@@ -82,7 +82,7 @@ Horizon bridges the gap between **data aggregation**, **analysis**, and **visual
 
 ---
 
-### 7. 📡 **Live Location Simulation**
+### 7. 🛰️ **Live Location Simulation**
 
 * Simulates **continuous live movement** for demonstration and testing.
 * Coordinates dynamically update on the map at fixed intervals.
@@ -113,7 +113,7 @@ cd Horizon
 
 ---
 
-### 🧱 Step 2: Set Up the Environment
+### 🧠 Step 2: Set Up the Environment
 
 Create and activate a virtual environment (recommended):
 
@@ -190,43 +190,50 @@ Enter your choice (1/2/3/4):
 
 ---
 
-## 🌍 Example Output
+## 🌍 Example Output (Detailed)
 
-```plaintext
-[+] Tracking Number: +1 202-555-0127
----------------------------------------
-Carrier: Verizon Communications
-Location: Washington D.C., United States
-Time Zone: UTC-5
-Tower ID: #3487 (Last Seen: 2 mins ago)
----------------------------------------
-Linked Profiles:
-  • Twitter: @john_doe
-  • Instagram: johndoe_2025
----------------------------------------
-Associated Numbers:
-  • +1 202-555-0189
-  • +1 202-555-0146
----------------------------------------
-Map saved as: /maps/number_2025550127.html
+Below is an example realistic output Horizon will produce for a tracked number.
+
+```
+──────────────────────────────────────────────
+📞 Phone Number Report for: +919876xxxxxx
+──────────────────────────────────────────────
+🌍 Country: India
+🕐 Time Zone: Asia/Kolkata
+🏢 Carrier: Jio
+📡 Last Network Tower: Mumbai Sector-17
+🖼️ Profile Photo: Retrieved successfully
+🌐 Social Profiles:
+   • WhatsApp: Found
+   • Telegram: Found
+   • Facebook: Not linked
+   • Instagram: Found
+
+🔗 Associated Numbers:
+   +9198765xxxxx
+   +9198765xxxxx
+
+📍 Approximate Location: Mumbai, Maharashtra
+──────────────────────────────────────────────
+✅ Data fetched successfully!
 ```
 
 ---
 
-## 🧠 Technical Stack
+## 🧱 Technical Stack
 
 | Layer                  | Technology Used               |
 | ---------------------- | ----------------------------- |
 | **Core Language**      | Python                        |
 | **Mapping Engine**     | Folium                        |
-| **CLI Interface**      | Rich Text-based CLI           |
+| **CLI Interface**      | Rich text-based CLI           |
 | **APIs**               | Custom OSINT & telecom APIs   |
 | **Data Visualization** | HTML maps, CSV logs           |
 | **Simulation Engine**  | Dynamic coordinate generation |
 
 ---
 
-## 🧰 File Structure
+## 📁 File Structure
 
 ```bash
 Horizon/
@@ -279,11 +286,10 @@ For queries, collaborations, or reporting issues:
 
 ---
 
-## 🌠 Vision
+## 👾 Vision
 
 > *“Horizon is more than a tracker — it’s your digital window into location intelligence.”*
 > — **Amit Kasbe**
 
-Horizon is built to evolve into a **complete telecommunication intelligence framework**, combining multi-API precision, real-time visualization, and deep data relationships — empowering researchers, developers, and analysts to explore the unseen patterns of the connected world.
-
+Horizon is built to evolve into a **complete telecommunication intelligence framework**, combining **multi-API precision**, **real-time visualization**, and **deep data relationships** — empowering researchers, developers, and analysts to explore the unseen patterns of the connected world.
 
